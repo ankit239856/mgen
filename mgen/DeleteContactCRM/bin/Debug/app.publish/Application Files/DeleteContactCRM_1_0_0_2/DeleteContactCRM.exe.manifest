@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DeleteContactCRM.exe" version="1.0.0.2" publicKeyToken="300b7c26109b1f0b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DeleteContactCRM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DeleteContactCRM.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.IdentityModel" version="3.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DeleteContactCRM.exe" size="12288">
+      <assemblyIdentity name="DeleteContactCRM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>5hn71aX/tIeu3npcOcfcfuhLHIg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="microsoft.crm.sdk.proxy.dll" size="194224">
+      <assemblyIdentity name="Microsoft.Crm.Sdk.Proxy" version="6.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Ifu0XxdH1mBjjhF3nv0Fl6f9xNs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Xrm.Sdk.dll" size="413360">
+      <assemblyIdentity name="Microsoft.Xrm.Sdk" version="6.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KcLXq72sPDyXcze/z5VouQQ84oc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=TRIDENTDELHI\ribha.singh" issuerKeyHash="03155e614559bea471f4984c020d5941d773455b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/MaqFPUCiG0iAUI+Z33pTk7gNLw=</DigestValue></Reference></SignedInfo><SignatureValue>Bhsfwpy0RvPxkAFfVXgSgjDq1Bu2D/Wv+Y59hjkeAxxqsbaX7XK2CKQzNkx+otDrBaMBImYRn7Fn97BmzH169UFAZYVoID7AB8GEzapxXed805iFgpU4lslA4LzxyMVuJbE/6JXP2oVO5boNPwRPPUVhkBWMoF87N5TXE+st57s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u7Onq4GyDEvRYf04aG8cK6iCzRnCqdImQgytfpSAvDzQJaXbhROavtbDrlbv3exm+Q27S/xitkyzIU6V4t+9WK7GcM2ELXUB3hKlmU2ikuVLssW7K0xoLZzCUhQyk9QnOXwH5sNU4sMPZXihKsXO0DgKvV6Jzb8NU1zdlVoZOVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bc34e04e4ee97d673e4201226d8802f514aac6fc" Description="" Url=""><as:assemblyIdentity name="DeleteContactCRM.exe" version="1.0.0.2" publicKeyToken="300b7c26109b1f0b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TRIDENTDELHI\ribha.singh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>kO+tywT0r+2YLZakuYNr/xxowOw=</DigestValue></Reference></SignedInfo><SignatureValue>szEpV4a5GVoKPXC0SIhIE9QkRycDmwkkWAg20+i4HLfTDELU2Ki3IXcfjAjl7BeUKKTiyo5X67ioAqKW3lktQl8uLz/2PaHSYAoWLaN7o5eqSEDxDjQMKSExFhXYmdVqGVhTvD0B/Rb/DFuXg3YTX6I67Z1XTDtPLxiz5i+lP9g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u7Onq4GyDEvRYf04aG8cK6iCzRnCqdImQgytfpSAvDzQJaXbhROavtbDrlbv3exm+Q27S/xitkyzIU6V4t+9WK7GcM2ELXUB3hKlmU2ikuVLssW7K0xoLZzCUhQyk9QnOXwH5sNU4sMPZXihKsXO0DgKvV6Jzb8NU1zdlVoZOVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQS219E/0bG7lDkkZJdOolhjANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAAVABSAEkARABFAE4AVABEAEUATABIAEkAXAByAGkAYgBoAGEALgBzAGkAbgBnAGgwHhcNMTQwNzA3MDk1MjE2WhcNMTUwNzA3MTU1MjE2WjA7MTkwNwYDVQQDHjAAVABSAEkARABFAE4AVABEAEUATABIAEkAXAByAGkAYgBoAGEALgBzAGkAbgBnAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALuzp6uBsgxL0WH9OGhvHCuogs0ZwqnSJkIMrX6UgLw80CWl24UTmr7Ww65W793sZvkNu0v8YrZMsyFOleLfvViuxnDNhC11Ad4SpZlNopLlS7LFuytMaC2cwlIUMpPUJzl8B+bDVOLDD2V4oSrFztA4Cr1eic2/DVNc3ZVaGTlXAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAobWSSvXnJFaoCpHg3qcX7aSytPoXgOQ4og0Rcf4ST7LOn/ZFz901neckGU2nnnNYKbMWVmh9MXhUsTvmQ2z5U8SCf5SHhOyjCSFSqbqD0vWMhcNCz6LBIG05nqSBY7c2cwbU3p63fKnVb1KRPKzmhWrwIfidxZsa24nmUJcf1mI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

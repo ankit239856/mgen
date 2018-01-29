@@ -1,0 +1,16 @@
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.csprojResolveAssemblyReference.cache
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.Form1.resources
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.Properties.Resources.resources
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.csproj.GenerateResource.Cache
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\DeleteContactCRM.exe
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\DeleteContactCRM.pdb
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\microsoft.crm.sdk.proxy.dll
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\Microsoft.Xrm.Sdk.dll
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\microsoft.crm.sdk.proxy.xml
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\Microsoft.Xrm.Sdk.xml
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.exe
+c:\users\ribha.singh\documents\visual studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.pdb
+C:\Users\ribha.singh\Documents\Visual Studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\DeleteContactCRM.exe.manifest
+C:\Users\ribha.singh\Documents\Visual Studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\bin\Debug\DeleteContactCRM.application
+C:\Users\ribha.singh\Documents\Visual Studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.exe.manifest
+C:\Users\ribha.singh\Documents\Visual Studio 2012\Projects\DeleteContactCRM\DeleteContactCRM\obj\Debug\DeleteContactCRM.application
